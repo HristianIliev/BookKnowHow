@@ -1,9 +1,12 @@
 package com.example.hristian.knowhowcom.presenters;
 
+import android.support.v7.widget.Toolbar;
+
 import com.example.hristian.knowhowcom.Contracts.IDrawerPresenter;
 import com.example.hristian.knowhowcom.Contracts.IDrawerView;
 import com.example.hristian.knowhowcom.R;
 import com.example.hristian.knowhowcom.ui.DrawerNavigator;
+import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
@@ -19,6 +22,7 @@ public class DrawerPresenter implements IDrawerPresenter {
     private List<IDrawerItem> drawerItems;
     private ProfileDrawerItem profileDrawerItem;
     private final IDrawerView view;
+    private Drawer drawer;
 
     @Inject
     public DrawerPresenter(@Named("drawerNavigationFragment") IDrawerView view, DrawerNavigator drawerNavigator){

@@ -1,4 +1,4 @@
-package com.example.hristian.knowhowcom.fragments;
+package com.example.hristian.knowhowcom.drawer;
 
 
 import android.content.Intent;
@@ -32,11 +32,11 @@ public class DrawerNavigationFragment
     private DrawerNavigator drawerNavigator;
     private IDrawerPresenter presenter;
     private Toolbar toolbar;
+    private Drawer drawer;
 
     public DrawerNavigationFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -46,6 +46,7 @@ public class DrawerNavigationFragment
         this.toolbar = root.findViewById(R.id.drawer_toolbar);
 
         this.presenter.start();
+
         return root;
     }
 
@@ -64,7 +65,12 @@ public class DrawerNavigationFragment
 
     @Override
     public void showDrawerWithAccountHeader(ProfileDrawerItem profileDrawerItem, List<IDrawerItem> drawerItems) {
-        this.drawerNavigator.getDrawerBuilderWithAccountHeader(this.getActivity(), profileDrawerItem, this, this.toolbar, drawerItems, this).build();
+        this.drawer = this.drawerNavigator.getDrawerBuilderWithAccountHeader(this.getActivity(),
+                profileDrawerItem,
+                this,
+                this.toolbar,
+                drawerItems,
+                this).build();
     }
 
     @Override

@@ -20,7 +20,7 @@ public class AddFragment extends Fragment implements IAddView{
     private IAddPresenter presenter;
 
     public AddFragment() {
-        // Required empty public constructor
+        // Required empty publfdfsfsic constructor
     }
 
 

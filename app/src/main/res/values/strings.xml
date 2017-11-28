@@ -7,8 +7,8 @@
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
@@ -101,4 +101,34 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_header_userSettings">User Settings</string>
+    <string name="pref_title_new_comment_on_your_post_notifications">New comment on your post notifications</string>
+    <string name="pref_header_profileSettings">Profile Settings</string>
+    <string name="pref_title_first_name">Name</string>
+    <string name="pref_title_surname">Surname</string>
+    <string name="pref_title_description">Description</string>
+    <string name="knowhow">KnowHow</string>
+    <string name="action_register">Register</string>
+    <string name="the_title_of_the_post">The title of the Post</string>
+    <string name="the_description_of_the_post">Description</string>
+    <string name="language">Language</string>
+    <string name="tag_1">Tag 1</string>
+    <string name="tag_2">Tag 2</string>
+    <string name="tag_3">Tag 3</string>
+    <string name="tag_4">Tag 4</string>
+    <string name="tag_5">Tag 5</string>
+    <string name="publish">Publish</string>
+    <string name="the_description_of_the_post2">The description of the Post</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="submit" />
+    <string name="submit2">Submit</string>
+    <string name="contact_form">Contact Form</string>
+    <string name="topic">Topic</string>
+    <string name="the_title_of_the_message">The title of the message</string>
+    <string name="message">Message</string>
+    <string name="the_message">The message</string>
+    <string name="send">Send</string>
+
+
 </resources>

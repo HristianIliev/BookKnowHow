@@ -25,7 +25,8 @@
             android:name=".settings.SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity android:name=".profile.ProfileActivity" />
-        <activity android:name=".myPosts.MyPostsActivity"></activity>
+        <activity android:name=".myPosts.MyPostsActivity" />
+        <activity android:name=".register.RegisterActivity"></activity>
     </application>
 
 </manifest>
